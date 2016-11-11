@@ -38,7 +38,16 @@ color.click(function() {
   }
 
 });*/
-  
 
 
+/*Все теги <img> со страницы помещаются в массив images[], все атрибуты alt из этих тегов - в массив alternativeText[].
+Далее элементы массива выводятся с разделителем & с использованием метода join()*/
 
+/*var images = $("img");
+var alternativeText = [];
+
+for (var i = 0; i < images.length; i++) {
+  alternativeText[i] = images[i].alt;
+}
+
+console.log(alternativeText.join(" & "));*/

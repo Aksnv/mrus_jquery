@@ -1,3 +1,7 @@
 .label {
   display: block;
 }
+
+img {
+  width: 200px;
+}
