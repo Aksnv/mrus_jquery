@@ -20,3 +20,25 @@
 /*var num = Math.random() * 3;
 alert($("#id_" + Math.ceil(num)).html());*/
 
+
+/*При выборе пользователем произвольной радиокнопки (состояние checked) все абзацы текста окрашиваются в цвет кнопки.
+При клике по метке (label) событие click срабатывает как при нажатии на сам элемент, к которому привязана метка*/
+
+/*var text = $(".text");
+var color = $(".color");
+
+color.click(function() {
+
+  for (var j = 0; j < color.length; j++) {
+    if (color[j].checked) {
+      for (var i = 0; i < text.length; i++) {
+        text[i].style.color = color[j].value;
+      }
+    }
+  }
+
+});*/
+  
+
+
+
