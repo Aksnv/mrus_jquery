@@ -51,3 +51,27 @@ for (var i = 0; i < images.length; i++) {
 }
 
 console.log(alternativeText.join(" & "));*/
+
+
+/*Каждую секунду ссылки меню одновременно меняют цвет с синего на красный и обратно.*/
+
+/*var links = $(".menu a");
+
+function linksColorRed() {
+  for (var i = 0; i < links.length; i++) {
+    links[i].style.color = "red";
+  }
+  setTimeout("linksColorBlue()", 1000);
+}
+
+function linksColorBlue() {
+  for (var i = 0; i < links.length; i++) {
+    links[i].style.color = "blue";
+  }
+  setTimeout("linksColorRed()", 1000);
+}
+
+setTimeout("linksColorRed()", 1000);*/
+
+
+
