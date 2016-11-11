@@ -74,4 +74,6 @@ function linksColorBlue() {
 setTimeout("linksColorRed()", 1000);*/
 
 
+/*Вывод первой буквы второго абзаца текста*/
 
+/*alert($("p:eq(1)").html().charAt(0));*/
