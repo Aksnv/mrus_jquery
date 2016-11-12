@@ -77,3 +77,16 @@ setTimeout("linksColorRed()", 1000);*/
 /*Вывод первой буквы второго абзаца текста*/
 
 /*alert($("p:eq(1)").html().charAt(0));*/
+
+
+/*Проверка наличия атрибута hidden у блока 
+(если атрибут присутствует, делаем блок видимым, если отсутствует - устанавливаем атрибут и делаем невидимым).*/
+
+/*var blocks = $(".block");
+
+for (var i = 0; i < blocks.length; i++) {
+  if (blocks[i].hidden == true) blocks[i].hidden = false;
+  else blocks[i].hidden = true;
+}*/
+
+
