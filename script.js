@@ -90,3 +90,32 @@ for (var i = 0; i < blocks.length; i++) {
 }*/
 
 
+/*Валидация формы на jQuery перед отправкой на сервер (данные всех полей объединяются в единую выборку в переменной formData).
+Осуществляется проверка всех полей на пустое значение и проверка поля "Имя" на соответствие буквенным символам (при помощи
+регулярного выражения).*/
+
+/*var error = "";
+var formData = $("#name, #email, #comment");
+
+$("form").submit(function() {
+  for (var i = 0; i < formData.length; i++) {
+    if (formData[i].value == "") {
+      alert("Заполните все поля формы!");
+      return false;
+    } else if ((formData[i].name == "name") && (!formData[i].value.match(/^[a-z]+$/i))) {
+      alert("Имя должно содержать только буквы!");
+      return false;
+    }
+  }
+  return true;
+});*/
+
+
+/*Плавная прокрутка страницы наверх (в течение 0.6s) при нажатии на кнопку с классом .button (кнопка "Наверх").*/
+
+/*$(".button").click(function () {
+  $("html, body").animate({
+    scrollTop: 0
+  }, 600);
+  return false;
+});*/
