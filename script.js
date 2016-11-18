@@ -134,3 +134,26 @@ $("form").submit(function() {
 /*var text = $("p").addClass("border");*/
 
 
+/*Определяем текущий размер шрифта абзаца (числовое значение).
+При клике на ссылку "Крупнее" размер шрифта увеличивается на 20%, при клике на ссылку "Мельче" размер шрифта уменьшается на 20%.*/
+
+/*var fontSizeString = $("p").css("font-size");
+var fontSizeNumber = "";
+
+for (var i = 0; i < fontSizeString.length - 2; i++) {
+  fontSizeNumber += fontSizeString[i];
+}
+
+fontSizeNumber = +fontSizeNumber;
+
+$("#bigger").click(function() {
+    $("p").css("font-size", function() {
+      return fontSizeNumber * 1.2 + "px";
+    });
+});
+
+$("#smaller").click(function() {
+    $("p").css("font-size", function() {
+      return fontSizeNumber * 0.8 + "px";
+    });
+});*/
