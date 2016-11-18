@@ -129,3 +129,8 @@ $("form").submit(function() {
 /*$("a[rel='external']").attr("target", "_blank");*/
 
 
+/*Добавление к выборке элементов класса при помощи метода addClass()*/
+
+/*var text = $("p").addClass("border");*/
+
+
