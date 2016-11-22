@@ -165,3 +165,9 @@ $("#smaller").click(function() {
 /*$("input[type='button']").click(function() {
   $("div").html("<p>" + $("input[type='text']").val() + "</p>").css("color", "red");
 })*/
+
+
+/*Копирование (клонирование) элемента <p> со всем его содержимым и добавление скопированного элемента в блоки <div>*/
+
+/*var text = $("p").clone();
+$("div").html(text);*/
