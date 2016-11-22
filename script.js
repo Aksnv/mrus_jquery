@@ -157,3 +157,11 @@ $("#smaller").click(function() {
       return fontSizeNumber * 0.8 + "px";
     });
 });*/
+
+
+/*При клике на кнопку "Добавить" содержимое текстового поля (выводится пользователем) добавляется как новый абзац в блок <div>,
+цвет абзаца красный.*/
+
+/*$("input[type='button']").click(function() {
+  $("div").html("<p>" + $("input[type='text']").val() + "</p>").css("color", "red");
+})*/
