@@ -9,3 +9,9 @@ img {
 /* .border {
   border: 5px solid #f00;
 } */
+
+img {
+  display: block;
+  width: 200px;
+  margin: 10px 0;
+}
