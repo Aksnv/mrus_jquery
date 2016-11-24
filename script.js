@@ -188,3 +188,42 @@ $("p").append("<br><i> С Уважением, Автор!</i>");*/
 })*/
 
 
+/*В поля формы вводится ширина, высота и цвет фона блока.
+При нажатии кнопки Добавить проводится валидация формы (все поля должны быть заполнены).
+Если валидация прошла удачно, блок добавляется на страницу под формой.
+Всего можно добавить не более 5 блоков (при добавлении 6-го выводится сообщение об ошибке и блок не добавляется).*/
+
+/*$("input[type='button']").click(function() {
+
+  if (validateForm()) {
+    $(".error").remove();
+    var block = $("<div></div>");
+    var error = $("<p class='error'>Не может быть больше 5 блоков на странице!</p>");
+    block.css("width", $("#width").val() + "");
+    block.css("height", $("#height").val() + "");
+    block.css("backgroundColor", $("#bgcolor").val());
+    block.css("marginTop", "20px");
+    error.css("color", "red");
+    
+    if ($("div").length >= 5) {
+      $("form").append(error);
+    } else {
+      $("body").append(block);
+    }  
+  }
+  
+})
+
+function validateForm() {
+  var count = 0;
+  for (var i = 0; i < $("input[type='text']").length; i++) {
+    if (($("input[type='text']")[i].value == '') || ($("input[type='text']")[i].value == '#')) {
+      count++;
+    }
+  }
+  if (count > 0) {
+    alert("Вы не заполнили все поля!");
+    return false;
+  }
+  return true;
+}*/
