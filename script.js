@@ -288,3 +288,12 @@ function resize() {
 function dissapear() {
   $(this).remove();
 }*/
+
+
+/*При двойном клике по абзацу с текстом, текст добавляется в конец содержимого текстового поля*/
+
+/*$(document).ready(function() {
+  $(document).on("dblclick", "p", function(event) {
+    $("textarea").val($("textarea").val() + $(event.target).html());
+  })
+})*/
