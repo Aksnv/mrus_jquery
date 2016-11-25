@@ -16,6 +16,10 @@ img {
   margin: 10px 0;
 } */
 
-textarea {
+/* textarea {
   display: block;
+} */
+
+img {
+  width: 100px;
 }

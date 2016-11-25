@@ -274,3 +274,17 @@ function validateForm() {
     $(".comment").append(comment);
   }
 })*/
+
+
+/*При первом клике по картинке ее ширина увеличивается до 300px, при повторном - картинка исчезает.*/
+
+/*$("img").bind("click", resize);
+
+function resize() {
+  $(this).css("width", "300px");
+  $(this).bind("click", dissapear);
+}
+
+function dissapear() {
+  $(this).remove();
+}*/
