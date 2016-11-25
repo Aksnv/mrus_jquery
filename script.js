@@ -295,5 +295,21 @@ function dissapear() {
 /*$(document).ready(function() {
   $(document).on("dblclick", "p", function(event) {
     $("textarea").val($("textarea").val() + $(event.target).html());
-  })
+  });
 })*/
+
+
+/*При клике по крестику блок с текстом плавно исчезает (анимация jQuery), 
+потом удаляется из документа и выводится сообщение, что блок удален. 
+Крестик сделан при помощи псевдоэлемента. Чтобы событие click срабатывало на псевдоэлементе, 
+но не срабатывало на самом блоке с текстом для блока используется CSS свойство pointer-events: none;
+а для псевдоэлемента pointer-events: all;*/
+
+/*$(document).ready(function() {
+  $("div").click(function() {
+    $(this).hide(500, function() {
+      $(this).remove();
+      alert("Блок удален!");
+    });
+  });
+});*/
