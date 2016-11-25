@@ -227,3 +227,50 @@ function validateForm() {
   }
   return true;
 }*/
+
+
+/*В предложенной форме пользователь отмечает нужные поля (radio, checkbox) и добавляет комментарий.
+После нажатия кнопки Добавить, получаем данные из формы с помощью метода val() и выводим введенную пользователем информацию
+в отдельном блоке на странице.*/
+
+/*$("input[type='button']").click(function() {
+  var gender = $("input[name='gender']:checked").val();
+  var country = [];
+  for (var i = 0; i < $("input[type='checkbox']:checked").length; i++) {
+    country.push($("input[type='checkbox']:checked")[i].value);
+  }
+  var comment = $("textarea").val();
+
+  $("form").after("<div></div>");
+  $("div").css("float", "left");
+  $("div").css("paddingLeft", "10px");
+  $("div").css("paddingRight", "10px");
+  $("div").css("backgroundColor", "#ddd");
+
+  $("div").append("<p class='gender'><b>Ваш пол: </b></p>");
+  if (gender == undefined) {
+    $(".gender").append("Не выбран");
+  } else {
+    $(".gender").append(gender);
+  }
+  
+  $("div").append("<p class='country'><b>Ваши любимые страны: </b></p>");
+  if (country.length == 0) {
+    $(".country").append("Не выбраны");
+  } else {
+    for (var i = 0; i < country.length; i++) {
+      if (i == country.length - 1) {
+        $(".country").append(country[i] + "");
+      } else {
+        $(".country").append(country[i] + ", ");
+      }
+    }
+  }
+
+  $("div").append("<p class='comment'><b>Ваш комментарий: </b></p>");
+  if (comment == "") {
+    $(".comment").append("Отсутствует");
+  } else {
+    $(".comment").append(comment);
+  }
+})*/
