@@ -329,3 +329,41 @@ function dissapear() {
     });
   });
 });*/
+
+
+/*При наведении на картинку курсором мышки она плавно становится НЕ прозрачной, а при последующем клике по картинке
+она плавно перемещается точно в центр окна браузера (по вертикали и горизонтали).
+При этом независимо от порядка следования в html-коде, картинка по которой кликнули последней отображается по центру экрана
+поверх других картинок.*/
+
+/*$(document).ready(function() {
+  var i = 0;
+
+  $("img").hover(function() {
+    
+    $(this).animate(
+      {
+        opacity: "1"
+      },
+    1000);
+
+    $(this).click(function(event) {
+      var mLeft = window.innerWidth / 2 - 250;
+      var mTop = window.innerHeight / 2 - 250;
+
+      $(event.target).css("position", "absolute");
+
+      $(event.target).animate(
+      {
+        width: "500px",
+        marginLeft: mLeft,
+        top: mTop
+      },
+      1000);
+
+      $(event.target).css("z-index", ++i);
+    });
+
+  });
+
+});*/

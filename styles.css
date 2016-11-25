@@ -47,3 +47,13 @@ div::after {
   cursor: pointer;
   pointer-events: all;
 }  */
+
+/* p {
+  min-height: 100px;
+}
+
+img {
+  width: 100px;
+  cursor: pointer;
+  opacity: 0.1;
+} */
